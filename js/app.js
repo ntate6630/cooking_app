@@ -23,10 +23,10 @@ angular.module('cookingApp').config(function($routeProvider) {
 		templateUrl: 'templates/recipes.html',
 		controller: 'SearchBarController',
 	})
-	.when('/howTo', {
+	/*.when('/howTo', {
 		templateUrl: 'templates/howto.html',
 		controller: 'HowToController',
-	})
+	})*/
 	.when('/video', {
 		templateUrl: 'templates/video.html',
 		controller: 'VideoController',
